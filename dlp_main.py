@@ -19,5 +19,5 @@ def main(file_path):
     logging_dlp.dlp_log(sensitive_data)
 
 if __name__ == "__main__":
-    file_path = 'Tushar\Data_Loss_Prevention\sample_data.txt'  # Path to the file
+    file_path = 'sample_data.txt'  # Path to the file
     main(file_path)
